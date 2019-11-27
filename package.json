@@ -1,0 +1,13 @@
+{
+  "name": "Presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "reveal-md slides.md --theme assets/style.css --static _site --static-dirs=assets ",
+    "start": "reveal-md slides.md -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
